@@ -8,7 +8,7 @@ import { TodoService } from "../../services/todo.service"
   styleUrls: ['./todos.component.css']
 })
 export class TodosComponent implements OnInit {
-  todos: Todo[];
+  todos: Todo[] = [];
   constructor(private todoService: TodoService) { }
 
   ngOnInit() {
